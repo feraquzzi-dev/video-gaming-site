@@ -1,0 +1,302 @@
+.main{
+    background:transparent;
+    width:86%;
+    min-height:440px;
+    margin-left:3.5%;
+}
+
+.slider{
+    width:100%;
+    height:350px;
+    margin-top:11%;
+    background-color: thistle;
+}
+
+.headtitle{
+    width:50%;
+    height:70px;
+    margin-top:5%;
+    border: 3px solid #e2293f;
+    margin-left:25%;
+    text-align:center;
+}
+
+.headtitle h2{
+    font-family: showcard gothic;
+    font-size:44px;
+    padding-top:5px;
+}
+
+.category-cover{
+    width:100%;
+    height:270px;
+    margin-top:3%;
+    background-color: transparent;
+    display:flex;
+    justify-content: space-between;
+}
+
+.vibrate:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+.one{
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+
+  height: 230px;
+  width: 275px;
+  margin-top:35px;
+  background-image: url("images/fifa.jpg");
+  border-radius: 5px;
+  text-align:center;
+  opacity:0.8;
+}
+
+.one p{
+    font-size:35px;
+    font-family:century gothic;
+    font-weight:bold;
+    color:white;
+    margin-top:90px;
+    display:none;
+}
+
+.one:hover p{
+    display:block;
+}
+
+.two{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+  
+    height: 230px;
+    width: 275px;
+    background-image: url("images/gwar.jpg");
+    border-radius: 5px;
+    text-align:center;
+
+}
+
+.two p{
+    font-size:35px;
+    font-family:century gothic;
+    font-weight:bold;
+    color:white;
+    margin-top:90px;
+    display:none;
+}
+
+.two:hover p{
+    display:block;
+}
+
+.three p{
+    font-size:35px;
+    font-family:century gothic;
+    font-weight:bold;
+    color:white;
+    margin-top:90px;
+    display:none;
+}
+
+.three:hover p{
+    display:block;
+}
+
+.three{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+  
+    height: 230px;
+    width: 275px;
+    margin-top:35px;
+    background-image: url("images/car.jpg");
+    border-radius: 5px;
+    text-align:center;
+}
+
+.details{
+    width:100%;
+    height:250px;
+    margin-top:5%;
+    background-color: thistle;
+}
+
+.any{
+    width:100%;
+    height:280px;
+    margin-top:5%;
+    margin-bottom:3%;
+    background-color:transparent ;
+    display:flex;
+    border-radius:8px;
+}
+
+.game-img{
+        background-color: whitesmoke;
+        border-radius: 8px;
+        width: 30%;
+        height:250px;
+        padding: 1rem 2rem;
+        position:relative;
+        box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12)
+      ;
+        
+}
+      
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+        .game-img {
+          -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+          background-color: rgba(255, 255, 255, 0.6);  
+        }
+    
+}
+
+.game-img:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+
+#space-invader {
+    box-shadow: 0 0 0 1em red,
+    0 1em 0 1em red,
+    -2.5em 1.5em 0 .5em red,
+    2.5em 1.5em 0 .5em red,
+    -3em -3em 0 0 red,
+    3em -3em 0 0 red,
+    -2em -2em 0 0 red,
+    2em -2em 0 0 red,
+    -3em -1em 0 0 red,
+    -2em -1em 0 0 red,
+    2em -1em 0 0 red,
+    3em -1em 0 0 red,
+    -4em 0 0 0 red,
+    -3em 0 0 0 red,
+    3em 0 0 0 red,
+    4em 0 0 0 red,
+    -5em 1em 0 0 red,
+    -4em 1em 0 0 red,
+    4em 1em 0 0 red,
+    5em 1em 0 0 red,
+    -5em 2em 0 0 red,
+    5em 2em 0 0 red,
+    -5em 3em 0 0 red,
+    -3em 3em 0 0 red,
+    3em 3em 0 0 red,
+    5em 3em 0 0 red,
+    -2em 4em 0 0 red,
+    -1em 4em 0 0 red,
+    1em 4em 0 0 red,
+    2em 4em 0 0 red;
+    background: red;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    margin: 50px 0 70px 65px;
+    position:absolute;
+    top:70px;
+    left:80px;
+  }
+
+  .game-details{
+    width:70%;
+    height:280px;
+    background-color:transparent;
+  }
+
+  .details-head{
+    width:90%;
+    height:70px;
+    border: 3px solid #e2293f;
+    margin-left:5%;
+    text-align: center;
+  }
+
+.details-head h2{
+      font-family: showcard gothic;
+      font-size:44px;
+      padding-top:5px;
+  }
+
+.details-head-details{
+    width:90%;
+    height:180px;
+    background-color: transparent;
+    margin-left:5%;
+    margin-top:3%;
+}
+
+.details-head-details p{
+    font-family:century gothic;
+    font-size:17px;
+    line-height:1.7rem;
+    word-spacing:5px;
+}

@@ -1,0 +1,15 @@
+.side{
+    background:transparent;
+    width:10%;
+    height:800px;
+    margin-top:7%;
+}
+
+.icon-nav{
+    background:#f38404;
+    width:80%;
+    height:500px;
+    margin-top:8%;
+    margin-left:10%;
+    border-radius:50px;
+}
